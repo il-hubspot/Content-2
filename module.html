@@ -1,35 +1,25 @@
 {# Please do NOT modify this module/file because your changes may be overwritten by future installation from BRiX Editor. To customize this, please clone this module/file and work from there. #}
 
-{{ require_css("//cdn2.hubspot.net/hubfs/346178/designmodo/ui-kit/ui-kit-content/css/ui-kit-styles.css") }}
+{{ require_css("//cdn2.hubspot.net/hubfs/346178/designmodo/ui-kit/ui-kit-content/css/ui-kit-styles.css") }}      
 {{ require_js("//cdn2.hubspot.net/hubfs/346178/designmodo/vendor/jquery-oembed-all/jquery.oembed.js") }}
 {{ require_css("//cdn2.hubspot.net/hubfs/346178/designmodo/vendor/jquery-oembed-all/jquery.oembed.css") }}
 {{ require_js("//inboundlabs.github.io/assets/c0748cf5-5e35-43e2-87e4-280e95be7c91/designmodo/video.js") }}
-<!-- content-1 -->
-<section class="content-1">
+<!-- content-2 -->
+<section class="content-2">
     <div class="container">
         <div class="row">
-            <div class="col-sm-10">
+            <div class="col-sm-6">
                 {{ widget.heading }}
-                <div class="row box-video">
-                    <div class="col-sm-7">
-                        <div class="player">
-                            <a class="oembed" href="{{ widget.video_url }}"></a>
-                        </div>
-                        {{ widget.intro }}
-                    </div>
-                    <div class="col-sm-4 col-sm-offset-1">
-                        <div class="btns">
-                            {% if widget.button_1_link %}
-                            <a class="btn btn-inverse" href="{{ widget.button_1_link }}"><span class="{{ widget.button_1_icon }}"> </span>{{ widget.button_1_text }}</a>
-                            {% endif %}
-                            {% if widget.button_2_link %}
-                            <a class="btn btn-primary" href="{{ widget.button_2_link }}"><span class="{{ widget.button_2_icon }}"> </span>{{ widget.button_2_text }}</a>
-                            {% endif %}
-                        </div>
-                        <div class="additional-links">
-                            {{ widget.additional_links }}
-                        </div>
-                    </div>
+                <div class="btns">
+                    {% if widget.button_link %}
+                    <a class="btn btn-primary" href="{{ widget.button_link }}"><span class="{{ widget.button_icon }}"> </span>{{ widget.button_text }}</a>
+                    {% endif %}
+                    <a href="{{ widget.sub_link }}"><b>{{ widget.sub_link_text }}</b></a>
+                </div>
+            </div>
+            <div class="col-sm-5 col-sm-offset-1">
+                <div class="player">
+                    <a class="oembed" href="{{ widget.video_url }}"></a>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ This Content module lets you tweak your content, allowing to add colors, videos 
 
 ### Content 2 module demo can be visited here:
 
-w.inboundlabs.co/form-1-and-content-2
+https://w.inboundlabs.co/form-1-and-content-2
 
 ### Content 2 module is FREE and is part of the Startup Framework FREE and PAID packages:
 

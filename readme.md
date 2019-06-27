@@ -1,13 +1,13 @@
 ![HubSpot](https://cdn2.hubspot.net/hubfs/327485/HubSpot%20Wordmark%20-%20Full%20Color.png "HubSpot")
-## Content 1
+## Content 2
 
 This Content module lets you tweak your content, allowing to add colors, videos (from Youtube, Vimeo and Wistia ).  This Content module has text control, link control, video information and color options.
 
-### Content 1 module demo can be visited here:
+### Content 2 module demo can be visited here:
 
 w.inboundlabs.co/form-1-and-content-2
 
-### Content  1 module is FREE and is part of the Startup Framework FREE and PAID packages:
+### Content 2 module is FREE and is part of the Startup Framework FREE and PAID packages:
 
 https://marketplace.hubspot.com/products/inboundlabs/startup-framework-marketplace
 
